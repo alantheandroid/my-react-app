@@ -4,7 +4,7 @@ export class HelloWorld extends React.Component {
   render() {
     return (
       <div>
-        {this.props.renderGreeting && <h1>Hello, World!</h1>}
+        {this.props.renderGreeting && <h2>Hello, World!</h2>}
         <p>What a beautiful day!</p>
       </div>
     );
