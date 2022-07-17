@@ -1,5 +1,6 @@
 import React from "react";
-import { HelloWorld } from "./HelloWorld";
+import { Clock } from "./Clock";
+/* import { HelloWorld } from "./HelloWorld"; */
 import { Welcome } from "./Welcome";
 
 export class App extends React.Component {
@@ -8,6 +9,7 @@ export class App extends React.Component {
       <div>
         <h1>My Awesome Application</h1>
         <Welcome name="Jimmy" />
+        <Clock />
       </div>
     );
   }
